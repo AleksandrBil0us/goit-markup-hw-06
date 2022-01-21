@@ -1046,7 +1046,7 @@ element styles footer */
   border-color: var(--accent-color);
 }
 
-.form-coment {
+.form-comment {
   width: 100%;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1062,11 +1062,11 @@ element styles footer */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-coment:focus {
+.form-comment:focus {
   border-color: var(--accent-color);
 }
 
-.form-coment::placeholder {
+.form-comment::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
