@@ -712,9 +712,9 @@ element styles footer */
   border-color: var(--additional-text-color);
 }
 
-.mail-footer:focus::placeholder {
+/* .mail-footer:focus::placeholder {
   color: var(--additional-text-color);
-}
+} */
 
 .btn-footer {
   position: relative;
