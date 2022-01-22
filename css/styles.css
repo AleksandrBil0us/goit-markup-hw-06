@@ -680,6 +680,8 @@ element styles footer */
   padding: 0;
   padding-left: 16px;
 
+  color: var(--additional-text-color);
+
   outline: none;
 
   background-color: var(--additional-background-color);
@@ -996,8 +998,8 @@ element styles footer */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-close:focus,
-.btn-close:hover {
+.modal-btn-close:hover .btn-close,
+.modal-btn-close:focus .btn-close {
   fill: var(--accent-color);
 }
 
@@ -1024,8 +1026,6 @@ element styles footer */
   display: block;
 
   color: var(--secondary-text-color);
-
-  margin-bottom: 4px;
 }
 
 .form-input {
@@ -1058,6 +1058,7 @@ element styles footer */
   display: block;
 
   padding: 12px 16px;
+  margin-top: 4px;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1133,7 +1134,10 @@ element styles footer */
 }
 
 .form-box {
+  display: block;
   position: relative;
+
+  margin-top: 4px;
 }
 
 .form-icon {
